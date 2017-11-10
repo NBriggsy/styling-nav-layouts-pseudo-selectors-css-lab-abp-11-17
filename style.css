@@ -34,13 +34,15 @@ nav a:hover {
   text-decoration: underline;
   color: #0056b3;
 }
+
+h3 #header{
+  float:left;
+  font-size: 30px;
+}
+
 #header a{
   text-decoration: none;
   color: #868e96;
-}
-
-#hoverstate a{
-  text-decoration: underline;
 }
 
 #header a:hover{
@@ -50,6 +52,23 @@ nav a:hover {
 
 main{
   margin-top: 20px;
+}
+
+div.jumbotron {
+  border-radius: 5px;
+  background-color: #e9ecef;
+  padding: 10px;
+  text-align: center;
+}
+
+.jumbotron h1{
+  font-size: 60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  padding: 0 40px 0 40px;
+  line-height: 40px;
 }
 
 div.questions {
@@ -78,23 +97,6 @@ div.questions a.btn {
 div.questions a.btn:hover {
   background-color: #0069d9;
   border-color: #0069d9;
-}
-
-div.jumbotron {
-  border-radius: 5px;
-  background-color: #e9ecef;
-  padding: 10px;
-  text-align: center;
-}
-
-.jumbotron h1{
-  font-size: 60px;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  padding: 0 40px 0 40px;
-  line-height: 40px;
 }
 
 footer{
